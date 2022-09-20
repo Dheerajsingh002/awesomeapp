@@ -1,0 +1,127 @@
+//JSX(javascript exts(extension))/javascript XML
+// ReactDOM.render('kya dikhana h(what to show)','kaha dikhana h(where to show)','callback function')  //Dikhana/Dikhaoo  there are three parameters in this
+// var ReactDOM =require('react-dom');
+// var React = require('react');
+
+// Render Method
+// JSX
+// Dom
+// React Fragment
+//JSX Expression{only Expression not a state}
+//Templete Literals
+//JSX Attributes
+//css styling in react
+//In React v16 it's possible for render()
+//to return an array of elements
+// ReactDOM.render(
+//   <React.Fragment>
+//   <h1>Hello Dheeraj!</h1>
+//   <p>Pls Like and Share bbkg</p>
+//   <h2>Please subcrbe my channel</h2>
+//   </React.Fragment>,
+//Import Export
+//Props component
+//app.js
+
+    
+  
+//   , document.getElementById('root'));
+// ReactDOM.render(
+//   <React.Fragment>
+//   <h1>Thapa Technical Netflix Pick</h1>
+//   <p>List of 5 Best Series</p>
+//   <ol>
+//     <li>Dark</li>
+//     <li>Extra Curricular</li>
+//     <li>My Holo Love</li>
+//     <li>My first-2 love</li>
+//     <li>Mr Robot</li>
+//   </ol>
+//   </React.Fragment>
+    
+  
+//   , document.getElementById('root'));
+
+
+// c
+
+
+
+// const flname='dheeraj';
+// const lname= 'singh';
+// const currentdate= new Date().toLocaleDateString();
+// const currenttime=new Date().toLocaleTimeString();
+
+// const img1="https://i.i-sgcm.com/cars_used/202108/1023478_2b.jpg";
+// //Templete Leterals
+// // console.log(`My name is ${flname}`)
+// const link="";
+// const heading={
+//   color:'red',
+//   textTransform:'capitalize',
+//   textAlign: 'center',
+//   fontWeight:'bold',
+//   textShadow:'0px 2px 4px red',
+//   margin:'70px 0',
+//   fontFamily:'"josefin Sans", sans-serif'
+// }
+// const decorate={
+
+// };
+// const cssStyle={
+  
+// };
+// // const time= new Date().toLocaleTimeString();
+// let curDate=new Date();
+// curDate=curDate.getHours();
+// let greeting='';
+// if(curDate>=1 && curDate<12){
+//   greeting='Good Morning';
+//   cssStyle.color="purple";
+
+// }
+// else if(curDate>=12 && curDate<18){
+//   greeting='Good Afternoon';
+//   cssStyle.color="pink";
+// }
+// else{
+//   greeting ='Good Night';
+//   cssStyle.color='green';
+// }
+
+
+
+
+
+
+// <React.Fragment>
+  // <h1>My name is {`my name is *1${flname} ${lname}`}</h1>
+  // <p>Pls Like and Share bbkg</p>
+  // <h2>Please subcrbe my channel</h2>
+  // <h1>My lucky number is {3+3}</h1>
+  // </React.Fragment>
+  // <>
+  //   <h1>{`My name is ${flname} ${lname}`}</h1>
+  //   <p>Todays Date is {currentdate}</p>
+  //   <p>Current Time {currenttime}</p>
+  //   <a href=""></a>
+  // </>
+  //           JSX Attributes
+//   .heading{
+//     color :#fa9191;
+//     text-align: center;
+//     text-transform: capitalize;
+//     font-weight: bold;
+// }
+/* <h1 contentEditable="true">{`My name is ${flname} ${lname}`}</h1> 
+ <h1 className="heading" style={heading}>{`My name is ${flname} ${lname}`}</h1>
+<a href={link} target="_thapa">
+<div className='img_div'>
+<img src={img1} alt="Image not found" />
+
+</div>
+ 
+</a>  */
+/* <div><h1>Hello sir, <span style={cssStyle} className="g">{greeting}</span></h1></div> */
+
+//ReactDom.render(React.createElement("h1",null,"Thapa Technical"),document.getElementById("root"));
